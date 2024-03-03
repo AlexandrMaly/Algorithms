@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/workspace.xml
+/.idea/uiDesigner.xml
+/out/production/Algorithms-task-pro/app/data/Product.class
+/.idea/modules.xml
+/out/production/Algorithms-task-pro/app/services/DataService.class
+/out/production/Algorithms-task-pro/app/data/DataProvider.class
+/out/production/Algorithms-task-pro/app/App.class
+/Algorithms-task-pro.iml
