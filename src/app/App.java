@@ -23,7 +23,14 @@ public class App {
     private static double getSearchValue() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter price value to search (x.xx): ");
-        return Double.parseDouble(scanner.next());
+        while (true) {
+            try {
+                return Double.parseDouble(scanner.next());
+            } catch (NumberFormatException e) {
+                System.out.println(e.getMessage());
+                System.out.print("Enter price value to search (x.xx): ");
+            }
+        }
     }
 
     private static void getOutput(List<Product> list) {
